@@ -3,10 +3,10 @@ package main
 import (
 	"os"
 
-	"github.com/javiersrf/todo-cli/internal"
+	"github.com/javiersrf/todo-cli/cmd"
 )
 
 func main() {
-	internal.ParseCommand(os.Args)
+	cmd.ParseCommand(os.Args)
 
 }
